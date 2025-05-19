@@ -99,6 +99,54 @@ A computação em nuvem representa uma evolução na forma como os sistemas são
 
 ---
 
+# Comparação de Serviços de Nuvem ☁️
+
+## 📚 Introdução
+Com a crescente adoção de computação em nuvem, é essencial entender as diferenças entre os principais provedores de serviços — **AWS**, **Microsoft Azure** e **Google Cloud Platform (GCP)** — para tomar decisões técnicas e estratégicas mais assertivas.
+
+---
+
+## 🧠 O que são Serviços de Nuvem?
+Serviços de nuvem oferecem recursos computacionais sob demanda via internet, como:
+- **Infraestrutura como Serviço (IaaS)**
+- **Plataforma como Serviço (PaaS)**
+- **Software como Serviço (SaaS)**
+
+---
+
+## 🔍 Principais Provedores e Comparação
+
+| Critério                 | AWS                         | Azure                          | GCP                            |
+|--------------------------|-----------------------------|--------------------------------|--------------------------------|
+| **Início**               | 2006                        | 2010                           | 2008                           |
+| **Popularidade**         | Mais utilizado              | Forte em empresas Microsoft    | Forte em dados e IA            |
+| **Facilidade de uso**    | Curva de aprendizado média  | Integração nativa com Windows  | Interface amigável e intuitiva |
+| **Serviços Notáveis**    | EC2, S3, Lambda              | VMs, Blob Storage, Azure ML    | Compute Engine, BigQuery       |
+| **Preços**               | Modelo pay-as-you-go        | Similar ao AWS                 | Competitivo e flexível         |
+| **Suporte e Comunidade** | Comunidade ampla e ativa    | Suporte corporativo forte      | Crescendo rapidamente          |
+
+---
+
+## 🧪 Casos de Uso
+
+- **AWS**: Projetos escaláveis e globais, com grande variedade de serviços.
+- **Azure**: Empresas que já utilizam Windows Server, Active Directory, etc.
+- **GCP**: Projetos focados em análise de dados, machine learning e escalabilidade.
+
+---
+
+## ✅ Conclusão
+
+Não existe um "melhor" provedor — a escolha depende do **caso de uso**, **custo**, **facilidade de integração** e **preferência da equipe**. Em muitos casos, empresas optam por uma **estratégia multi-cloud** para aproveitar o melhor de cada plataforma.
+
+---
+
+## 📎 Referências
+- [AWS Overview](https://aws.amazon.com/)
+- [Microsoft Azure](https://azure.microsoft.com/)
+- [Google Cloud](https://cloud.google.com/)
+
+
 ## ✍️ Autor
 
 **Nome:** Daiane Vilela  
