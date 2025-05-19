@@ -102,15 +102,43 @@ A computação em nuvem representa uma evolução na forma como os sistemas são
 # Comparação de Serviços de Nuvem ☁️
 
 ## 📚 Introdução
-Com a crescente adoção de computação em nuvem, é essencial entender as diferenças entre os principais provedores de serviços — **AWS**, **Microsoft Azure** e **Google Cloud Platform (GCP)** — para tomar decisões técnicas e estratégicas mais assertivas.
+Com a crescente adoção de computação em nuvem, é essencial entender as diferenças entre os principais provedores — **AWS**, **Microsoft Azure** e **Google Cloud Platform (GCP)** — além dos modelos de serviço oferecidos: **IaaS**, **PaaS** e **SaaS**. Também é importante conhecer o modelo de **responsabilidade compartilhada** adotado pelos provedores.
 
 ---
 
-## 🧠 O que são Serviços de Nuvem?
-Serviços de nuvem oferecem recursos computacionais sob demanda via internet, como:
-- **Infraestrutura como Serviço (IaaS)**
-- **Plataforma como Serviço (PaaS)**
-- **Software como Serviço (SaaS)**
+## ☁️ Modelos de Serviço em Nuvem
+
+### 🔧 IaaS (Infrastructure as a Service)
+- **O que é**: Infraestrutura básica fornecida como serviço (rede, servidores, VMs).
+- **Responsabilidade do cliente**: Sistema operacional, middleware, dados, runtime e aplicações.
+- **Exemplos**: Amazon EC2, Azure Virtual Machines, Google Compute Engine.
+
+### 🧱 PaaS (Platform as a Service)
+- **O que é**: Plataforma completa para desenvolvimento e hospedagem de aplicações.
+- **Responsabilidade do cliente**: Somente o código da aplicação e dados.
+- **Exemplos**: AWS Elastic Beanstalk, Azure App Service, Google App Engine.
+
+### 💻 SaaS (Software as a Service)
+- **O que é**: Software pronto para uso, acessado via navegador ou app.
+- **Responsabilidade do cliente**: Uso da aplicação.
+- **Exemplos**: Google Workspace, Microsoft 365, Salesforce.
+
+---
+
+## 🛡️ Modelo de Responsabilidade Compartilhada
+
+> Na computação em nuvem, a **segurança e conformidade** são uma **responsabilidade compartilhada** entre o **provedor** e o **cliente**.
+
+| Elemento                          | Responsável no IaaS | Responsável no PaaS | Responsável no SaaS |
+|----------------------------------|----------------------|----------------------|----------------------|
+| Físico (rede, datacenter, disco) | Provedor             | Provedor             | Provedor             |
+| Virtualização/Sistema Operacional| Cliente              | Provedor             | Provedor             |
+| Aplicações e Dados               | Cliente              | Cliente              | Provedor (com uso do cliente) |
+| Configurações de segurança       | Cliente              | Parcialmente Cliente | Geralmente Cliente (usuário final) |
+
+🔐 **Resumo**:
+- Quanto mais "as a Service", **menos responsabilidade técnica** para o cliente.
+- O cliente **ainda é responsável** por configurar acessos, usar senhas fortes, proteger seus dados, etc.
 
 ---
 
@@ -145,6 +173,8 @@ Não existe um "melhor" provedor — a escolha depende do **caso de uso**, **cus
 - [AWS Overview](https://aws.amazon.com/)
 - [Microsoft Azure](https://azure.microsoft.com/)
 - [Google Cloud](https://cloud.google.com/)
+- [Shared Responsibility Model – AWS](https://aws.amazon.com/compliance/shared-responsibility-model/)
+
 
 
 ## ✍️ Autor
