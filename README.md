@@ -175,7 +175,74 @@ Não existe um "melhor" provedor — a escolha depende do **caso de uso**, **cus
 - [Google Cloud](https://cloud.google.com/)
 - [Shared Responsibility Model – AWS](https://aws.amazon.com/compliance/shared-responsibility-model/)
 
+---
 
+# Projeto: Catálogo Inteligente de Artigos com Azure AI Search
+
+Este projeto foi desenvolvido como parte dos meus estudos em **computação em nuvem** utilizando a plataforma **Microsoft Azure**, com o objetivo de criar um mecanismo de busca inteligente sobre documentos armazenados na nuvem — sem a necessidade de escrever código.
+
+---
+
+## Objetivo
+
+Criar um sistema de indexação e consulta de documentos (PDF, DOCX, TXT) baseado em inteligência artificial utilizando recursos no-code da Azure, como:
+
+- Azure Blob Storage
+- Azure AI Search (Cognitive Search)
+- Azure Cognitive Services
+- Azure AI Studio (opcional)
+
+---
+
+## Etapas do Projeto
+
+### 1. Armazenamento de Dados (Blob Storage)
+- Criei uma conta de armazenamento na Azure.
+- Configurei um container chamado `artigos`.
+- Fiz o upload de documentos com conteúdo técnico, como artigos e manuais.
+
+### 2. Serviço de Busca Inteligente (Azure AI Search)
+- Criei um recurso do Azure AI Search com a camada gratuita (F1).
+- Conectei o Blob Storage como fonte de dados.
+- Ativei os **Cognitive Skills** para extrair texto, metadados e entidades dos arquivos.
+- Criei um indexador e um índice para automatizar a leitura dos documentos.
+
+### 3. Testes com Search Explorer
+- Usei o Search Explorer integrado no portal Azure para fazer consultas como:
+  - `"inteligência artificial"`
+  - `"segurança da informação"`
+  - `"cloud computing"`
+- Analisei os resultados retornados com base na relevância e no conteúdo extraído.
+
+### 4. Azure AI Studio
+- Experimentei o Azure AI Studio para criar um assistente baseado nos dados indexados.
+- A ferramenta permite criar um chat interativo que entende linguagem natural com base nos documentos armazenados.
+
+---
+
+## Aprendizados
+
+- Entendi na prática como **armazenar, indexar e consultar dados** na nuvem.
+- Usei recursos de IA sem escrever código, apenas configurando serviços no portal Azure.
+- Vivenciei o poder da **busca cognitiva**, que vai além da busca por palavras-chave.
+- Dei meus primeiros passos com **Azure AI Studio**, criando interações com linguagem natural.
+
+---
+
+## Recursos Gratuitos Utilizados
+
+- Azure Free Tier (30 dias)
+- Azure AI Search (F1)
+- Cognitive Services (F0)
+- Blob Storage gratuito com limites iniciais
+
+---
+
+## Conclusão
+
+Essa experiência mostrou como é possível **aplicar IA e computação em nuvem** com facilidade e sem depender de programação, o que abre muitas portas para projetos acessíveis, didáticos e profissionais.
+
+---
 
 ## ✍️ Autor
 
